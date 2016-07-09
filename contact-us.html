@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Связаться с нами</title>
+
+    <!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body>
+
+  <header id="header">
+    <div class="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-xs-4">
+                    <div class="top-number">
+                      <p><i class="fa fa-phone-square"></i>  68-20-41, 68-20-51</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-4">
+                    <div class="social top-number">
+                      <p><i class="fa"></i>г. Ярославль, ул. Магистральная, дом 14</p>
+                    </div>
+                </div>
+            </div>
+        </div><!--/.container-->
+    </div><!--/.top-bar-->
+      <nav class="navbar navbar-inverse" role="banner">
+          <div class="container">
+            <div class="collapse navbar-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                  <li><a href="index.html">Главная</a></li>
+                  <li><a href="about-us.html">О компании</a></li>
+                  <li><a href="prices.html">Ассортимент и цены</a></li>
+                  <li class="active"><a href="contact-us.html">Контакты</a></li>
+                </ul>
+            </div>
+          </div><!--/.container-->
+      </nav><!--/nav-->
+
+  </header><!--/header-->
+
+    <section id="contact-info" class="no-margin">
+        <div class="gmap-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 text-center">
+                        <div class="gmap">
+                            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=RYsL8UTIPaBSwLPZr3tp_T9ZKEhs_dLO&width=320&height=240&lang=ru_RU&sourceType=constructor&scroll=true"></script>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-7 map-content">
+                        <ul class="row">
+                            <li class="col-sm-6">
+                                <address>
+                                    <h5>Михаил Петров</h5>
+                                    <p>Телефон +7(4852) 56-75-11 <br>
+                                    Skype <a href="skype:some_skype?call">some_skype</a> <br></p>
+                                    <p>Email <a href="mailto:info@domain.com">info@domain.com</a></p>
+                                </address>
+
+                                <address>
+                                  <h5>Пётр Михайлов</h5>
+                                  <p>Телефон: +7(4852) 56-75-11 <br>
+                                  Skype <a href="skype:some_skype?call">some_skype</a> <br></p>
+                                  <p>Email <a href="mailto:info@domain.com">info@domain.com</a></p>
+                                </address>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  <!--/gmap_area -->
+
+    <section id="contact-page">
+        <div class="container">
+            <div class="center">
+                <h2>Остались вопросы?</h2>
+                <p class="lead">Задайте их по телефону или используя форму ниже <br/> Укажите свой номер телефона и мы вам обязательно перезвоним</p>
+            </div>
+            <div class="row contact-wrap">
+                <div class="status alert alert-success" style="display: none"></div>
+                <form id="main-contact-form" class="contact-form form-horizontal" name="contact-form" method="post" action="https://formspree.io/yartubes@gmail.com">
+                    <div class="form-group">
+                        <label>Представьтесь, пожалуйста</label>
+                        <input type="text" id="name" name="name" class="form-control" required="required">
+                    </div>
+                    <div class="form-group">
+                        <label>Ваш email для обратной связи</label>
+                        <input type="email" id="email" name="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Или телефон</label>
+                        <input type="phone" id="phone" name="phone" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Сообщение</label>
+                        <textarea name="message" id="message" required="required" class="form-control" rows="8"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Задать вопрос</button>
+                    </div>
+                    <div class="hidden">
+                      <input type="hidden" id="subject" name="subject" value="Tubes feedback" />
+                    </div>
+                </form>
+            </div><!--/.row-->
+        </div><!--/.container-->
+    </section><!--/#contact-page-->
+
+    <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2016 <a href="mailto:yartubes@gmail.com" title="Обратная связь">Обратная связь</a>. GPLv3.
+                </div>
+                <div class="col-sm-6">
+                    <ul class="pull-right">
+                      <li><a href="index.html">Главная</a></li>
+                      <li><a href="about-us.html">О компании</a></li>
+                      <li><a href="prices.html">Ассортимент и цены</a></li>
+                      <li><a href="contact-us.html">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+</body>
+</html>
