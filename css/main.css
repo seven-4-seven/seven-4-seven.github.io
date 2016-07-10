@@ -320,12 +320,16 @@ body > section {
   margin-top: 140px;
 }
 
-#main-slider .carousel .slide-margin{
-  margin-top: 140px;
+#main-slider .carousel .slide-margin {
+  margin-top: 270px;
+}
+
+#main-slider .carousel h1 {
+  color: black;
 }
 
 #main-slider .carousel h2 {
-  color: #fff;
+  color: black;
 }
 
 #main-slider .carousel .btn-slide {
