@@ -1,0 +1,6 @@
+Sitemap: http://www.yar-truba.ru/sitemap.xml
+User-Agent: *
+Disallow: /js
+Disallow: /images
+Disallow: /css
+Disallow: /fonts
