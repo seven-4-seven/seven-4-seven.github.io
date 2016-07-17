@@ -12,6 +12,50 @@ body {
   line-height: 22px;
 }
 
+.landing {
+  margin: 20px;
+}
+
+#main-slider {
+  padding: 30px 20px;
+}
+
+.landing .big-text h1 {
+  font-size: 96pt;
+}
+
+.landing .phones {
+  padding-top: 35px;
+}
+
+.landing h1, .landing h2, .landing h3 {
+  font-weight: 900;
+}
+
+.landing h1 {
+  font-size: 72pt;
+}
+
+.landing h2 {
+  font-size: 48pt;
+}
+
+.landing h3 {
+  font-size: 36pt;
+}
+
+.landing-footer {
+  text-align: right;
+}
+
+.red-text h1, .red-text h2, .red-text h3 {
+  color: #c52d2f;
+}
+
+.black-text h1, .black-text h2, .black-text h3 {
+  color: #4e4e4e;
+}
+
 h1,
 h2,
 h3,
