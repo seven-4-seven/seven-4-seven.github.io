@@ -310,6 +310,16 @@ body > section {
 *******Home Page******
 **************************/
 
+#main-details {
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
+
+#main-details .feature-wrap {
+  padding-left: 25px;
+  padding-right: 25px;
+}
 
 #main-slider {
   position: relative;
@@ -328,8 +338,8 @@ body > section {
   margin-top: 130px;
 }
 
-#main-slider .carousel h2 {
-  color:#fff;
+#main-slider .carousel h1, h2 {
+  color:#4e4e4e;
 }
 
 #main-slider .carousel .btn-slide {
