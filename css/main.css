@@ -491,6 +491,8 @@ body > section {
   animation: fadeInUp 300ms linear 1200ms both;
 }
 
+
+
 .main-page-block {
   background: #f2f2f2;
   padding-bottom: 20px;
@@ -549,6 +551,10 @@ body > section {
 
 #recent-works{
     padding-bottom: 70px;
+}
+
+.normal-text {
+  font-weight: normal;
 }
 
 .recent-work-wrap {
