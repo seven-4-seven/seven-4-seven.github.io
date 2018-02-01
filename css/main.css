@@ -555,6 +555,7 @@ body > section {
 
 .normal-text {
   font-weight: normal;
+  font-size: 12px;
 }
 
 .recent-work-wrap {
